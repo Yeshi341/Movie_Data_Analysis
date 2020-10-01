@@ -1,0 +1,33 @@
+## Overview
+
+(The OTT (Over-the-top) video streaming market has grown significantly in the last decade. Major OTT video streaming companies like Netflix, Amazon Prime Video, Hulu, have had much success in not just creating a platform for video streaming, but also creating their own original video content. The market size of the Movie and Video production industry is over $30 billion and Microsoft  wants to enter this market by creating its own movie studio. So, this project is conducted to do some research on the movie industry, to find out what kind of movies have been successful based on the data collected.
+Microsoft is a technology and tech services company. The movie and production industry is unchartered grounds for Microsoft. To enter and compete in this market, it must first understand what kinds of production work and what does not. Here in, lies Microsoft's problem
+
+Questions:
+3. What genre of movies are people most excited about voting on ?
+4. Are movie ratings affected by movie runtimes ?
+
+Reasons:
+3. Most probably than not, a person will only vote on a movie if they have seen it in the first place. For someone to be drawn to watch a movie and then actually go online to the imdb site and vote on it tells us that the movie brought some level of excitement. I wanted to find in what genre do the movies most voted on fall in. For Microsoft this inquiry tells them what genre movies are most popular among movie goers.
+4. In knowing whether the time length of a movie affects how high a movie is rated, gives us an idea of whether people are put off by long movies or not. Based on the data, we can also provide some inference on the ideal time length of a movie. 
+
+## Data Understanding
+
+In order to answer the data analysis questions, only certain datasets were picked to identify and isolate the target variables that we were interested in.
+
+To answer the aforementioned question 3, the IMDB title basics, the IMDB title ratings, and the TMDB movies datasets were combined to form a single dataset 'movie_ratings_info'. This dataset represents all the movies, and other movie properties that describe it like, movie runtime, movie average rating, the number of voters who voted on the ratings, movie release dates, and the genre the movie belonged to. 
+The sample of movies here are movies that can be found on the IMDB and the TMDB websites and for whom movie rating information was available. The target variable here is the average rating a movie received. The average_rating variable is a weighted average value of the movie ratings information from the two websites. A rating value is between the range of 1 to 10 where 10 is the highest rating indicating a well approved movie. Although the ratings for a movie are given by people who are members of IMDB and TMDB, .......... 
+
+
+
+## Data Preparation
+
+In preparing the dataset, variables that were duplicates (like the multiple title variables, the duplicate genre variable) were dropped from the final data. There are two variables created to help answer the question; 'average_rating' and 'number_votes'. 
+Some effort was made to salvage any missing rating and voter count information, by replacing the missing values in one column with its corresponding other rating or voter count column.
+The 'average_rating' variable was then created as a weighted average of the movie ratings information from the two websites. Similarly, the 'number_votes' variable was also created as a weighted average of the voter count information from the two websites. Any observation with missing values that affected the target variable 'average_rating' and 'number_votes' was also dropped.
+
+Missing movie rating information had to be dropped because keeping it may create noise in the dataset by indicating something that may not be true. Just because a movie has no rating, does not mean the movie was rated 0 or 1. Replacing missing values with the mean or median also adds misinformation to the dataset. Hence, missing movie rating information was dropped.
+
+## Methods
+
+Beginning to any data analysis and after retrieving data, comes the crucial part of data cleaning. There were a lot of 'Nan' values in the dataset. Some of the variables were of string datatype that needed to be changed to a numeric datatype, to be able to perform analysis
