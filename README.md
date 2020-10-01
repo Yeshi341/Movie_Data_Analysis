@@ -81,9 +81,11 @@ Present your key results. For Phase 1, this will be findings from your descripti
 
 #### Question 1 (a)
 The results of this inquiry shows that the American populations favorite genres of movies are adventure, animated, sci-fi, fantasy, action, and family. These top 6 genres have a significantly higher mean box office than all other genres. The top being adventure with a mean box office of $125,305,063. There are some outliers on the upper range that will impact this mean but I think that this is important to keep because it shows that adventure have the possibility of reaching much higher box office income than other genres.
+![Box Office Domestic](./images/Genre_vs_boxoffice.png)
 
 #### Question 1 (b)
 The results of this question shows that worldwide the genres of movies that have the highest mean box office are adventure, animated, fantasy, family, sci-fi, and action. These are very similar to the domestic box office from question 1 (a). The only difference is that the top 3-6 are in different positions but remain in the top 6. After this top 6 there is a dramatic drop off in mean worldwide box office. The top genre of adventure grossed on average $341,304,504 in the box office.
+![Box Office Worldwide](./images/Genre_vs_WWboxoffice.png)
 
 #### Question 2
 The results here show that there are actors, actresses, directors, and writers who were a part of movies that were rated very highly. A note here is that this does not mean that if these highly rated personnel are a part of a movie it will receive a high rating. It means that they will give a higher chance of a movie being rated highly because they have shown they can produce highly rated work.
