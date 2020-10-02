@@ -51,11 +51,11 @@ The results here show that there are actors, actresses, directors, and writers w
 
 #### Question 3
 People are most excited to watch movies that fall in the drama, thriller. horror and documentary genre
-![Genre of movies rated](./images/No of ratings within genre.png)
+![Genre of movies rated](./images/No_of_ratings_within_genre.png)
 
 #### Question 4
 Average Rating of a movie has no correlation with how long a movie runs.
-![Movie runtime](./images/Movie Runtime and Average Rating Corr.png)
+![Movie runtime](./images/Movie_Runtime_and_Average_Rating_Corr.png)
 
 ## Conclusions
 
