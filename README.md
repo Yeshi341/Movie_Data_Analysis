@@ -30,7 +30,7 @@ The datasets provide information on the various movies, their genre, the box off
 
 
 This project looks at trends of movies based on the various available characteristics of movies in the sample data. This allows us to identify the traits of a successful movie in terms of who to hire, what genre the movie plot should be, and the length of the movie.
-Descriptive analysis was used on the average ratings data to assess its distribution and to check on the trends of genres of movies what were rated
+Descriptive analysis was used on the average ratings data to assess its distribution and to check on the trends of genres of movies that were rated
 
 
 ## Results
@@ -51,11 +51,11 @@ The results here show that there are actors, actresses, directors, and writers w
 
 #### Question 3
 People are most excited to watch movies that fall in the drama, thriller. horror and documentary genre
-![Genre of movies rated](./images/No of ratings within genre)
+![Genre of movies rated](./images/No of ratings within genre.png)
 
 #### Question 4
 Average Rating of a movie has no correlation with how long a movie runs.
-![Movie runtime](./images/Movie Runtime and Average Rating Corr)
+![Movie runtime](./images/Movie Runtime and Average Rating Corr.png)
 
 ## Conclusions
 
@@ -63,7 +63,7 @@ In conclusion, our analysis leads to the following recommendations to Microsoft:
 
 1. Movies in the genres of adventure, animated, sci-fi, fantasy, action, and family have grossed the highest at the American box office. In terms of earnings these are the genres that Microsoft should explore.
 2. Microsoft should hire movie crew members who have historically worked on successful movies.
-3. Exploring movies in the drama, thriller. horror and documentary genre may also be fruitful for Microsoft when deciding on what kinds of movie to make
+3. Exploring movies in the drama, thriller, horror and documentary genre may also be fruitful for Microsoft when deciding on what kinds of movie to make
 4. When movie viewers rate movies, the length of the movie does not affect whether they vote on a movie or not and how well they vote. Microsoft should not be too concerned about the length of a movie being a putoff.
 
 
