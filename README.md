@@ -22,7 +22,7 @@ Microsoft wants to join in on the other big companies starting to make video con
 ## Data
 
 
-The data used in this project comes from websites that specialize in movies/tv-shows and all information on those. The websites are Box Office Mojo, IMDb, Rotten Tomatoes, and TheMovieDB.org. 
+The data used in this project comes from websites that specialize in movies/tv-shows and all information on those. The websites are Box Office Mojo, IMDb, Rotten Tomatoes, and TheMovieDB.org.
 The datasets provide information on the various movies, their genre, the box office earnings, movie ratings, movie runtimes and the movie crew members.
 
 
@@ -30,7 +30,7 @@ The datasets provide information on the various movies, their genre, the box off
 
 
 This project looks at trends of movies based on the various available characteristics of movies in the sample data. This allows us to identify the traits of a successful movie in terms of who to hire, what genre the movie plot should be, and the length of the movie.
-Descriptive analysis was used on the average ratings data to assess its distribution and to check on the trends of genres of movies what were rated 
+Descriptive analysis was used on the average ratings data to assess its distribution and to check on the trends of genres of movies what were rated
 
 
 ## Results
@@ -38,7 +38,7 @@ Descriptive analysis was used on the average ratings data to assess its distribu
 Following are the analysis results by question:
 
 #### Question 1 (a)
-The results of this inquiry shows that the American populations favorite genres of movies are adventure, animated, sci-fi, fantasy, action, and family. 
+The results of this inquiry shows that the American populations favorite genres of movies are adventure, animated, sci-fi, fantasy, action, and family.
 ![Box Office Domestic](./images/Genre_vs_boxoffice.png)
 
 #### Question 1 (b)
@@ -54,7 +54,7 @@ People are most excited to watch movies that fall in the drama, thriller. horror
 ![Genre of movies rated](./images/No of ratings within genre)
 
 #### Question 4
-Average Rating of a movie has no correlation with how long a movie runs. 
+Average Rating of a movie has no correlation with how long a movie runs.
 ![Movie runtime](./images/Movie Runtime and Average Rating Corr)
 
 ## Conclusions
@@ -75,7 +75,7 @@ To be with the times of our current situation, the next steps would be to look a
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./movie-data-analysis.ipynb) or our [presentation](./Movie-Data-Analysis-Presentation.pdf).
 
 For any additional questions, please contact **name & email, name & email**
 
@@ -85,8 +85,8 @@ Describe the structure of your repository and its contents, for example:
 
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── movie-data-analysis.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── Movie-Data-Analysis-Presentation.pdf         <- PDF version of project presentation
 ├── data                                <- Both sourced externally and generated from code
 └── images                              <- Both sourced externally and generated from code
 ```
