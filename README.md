@@ -77,7 +77,7 @@ To be with the times of our current situation, the next steps would be to look a
 
 Please review our full analysis in [our Jupyter Notebook](./movie-data-analysis.ipynb) or our [presentation](./Movie-Data-Analysis-Presentation.pdf).
 
-For any additional questions, please contact **name & email, name & email**
+For any additional questions, please contact **Lhamu Tsering boutlhamu@gmail.com & Justin Fernandez justin.miguel.fernandez@gmail.com**
 
 ## Repository Structure
 
